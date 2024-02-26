@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       builder =>
                       {
-                          builder.WithOrigins("http://127.0.0.1.com");
+                          builder.WithOrigins("localhost:4200");
                       });
 });
 // Add services to the container.

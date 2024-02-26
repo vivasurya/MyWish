@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cb63b904-6773-4df0-9b73-0564a8c6ba12")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BikeStores.MSSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1a6a154f96c7f082e96cc7ac5c001c015b92cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BikeStores.MSSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BikeStores.MSSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

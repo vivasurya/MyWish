@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {}
+    "C:\\Users\\jayan\\source\\repos\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {
+    "C:\\Users\\jayan\\source\\repos\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
+        "projectUniqueName": "C:\\Users\\jayan\\source\\repos\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
         "projectName": "BikeStores.MSSQL",
-        "projectPath": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
-        "packagesPath": "C:\\Users\\alkaren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\obj\\",
+        "projectPath": "C:\\Users\\jayan\\source\\repos\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
+        "packagesPath": "C:\\Users\\jayan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayan\\source\\repos\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alkaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,13 +70,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -78,7 +89,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -90,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
